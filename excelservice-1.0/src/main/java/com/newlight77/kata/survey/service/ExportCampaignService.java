@@ -26,7 +26,7 @@ public class ExportCampaignService {
     this.mailService = mailService;
   }
 
-  public void creerSurvey(Survey survey) {
+  public void createSurvey(Survey survey) {
     campaignWebService.createSurvey(survey);
   }
 
